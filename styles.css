@@ -76,6 +76,16 @@ section { padding: var(--step) 0; border-top: 1px solid var(--line); }
 .product .meta { font-family: "JetBrains Mono", monospace; font-size: 12px; letter-spacing: 0.08em; color: var(--muted); text-transform: uppercase; }
 .product p { color: var(--muted); max-width: 60ch; margin: 6px 0 0; }
 
+/* sectors — bordered grid, hairline gaps (studio look) */
+.sectors { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; background: var(--line); border: 1px solid var(--line); }
+@media (max-width: 860px) { .sectors { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 560px) { .sectors { grid-template-columns: 1fr; } }
+.sector { background: var(--paper); padding: 34px 30px; min-height: 178px; display: flex; flex-direction: column; gap: 10px; transition: background 0.2s; }
+.sector:hover { background: var(--paper-2); }
+.sector .tag { font-family: "JetBrains Mono", monospace; font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--accent); }
+.sector h3 { font-size: 21px; }
+.sector p { color: var(--muted); font-size: 15px; margin: 0; }
+
 /* about / two-column prose */
 .cols { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(28px, 5vw, 72px); }
 .cols p { color: var(--muted); }
