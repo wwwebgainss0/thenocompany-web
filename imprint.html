@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Imprint — TheNoCompany</title>
+  <meta name="description" content="Legal information for TheNoCompany LLC." />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%2316161A'/%3E%3Ccircle cx='16' cy='16' r='5.5' fill='none' stroke='%23F6F5F1' stroke-width='2.4'/%3E%3Cline x1='12' y1='20' x2='20' y2='12' stroke='%233A2BFF' stroke-width='2.4'/%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="bar">
+    <div class="wrap">
+      <a class="brand" href="/">TheNo<span class="dot">·</span>Company</a>
+      <nav class="nav" aria-label="Primary">
+        <a href="/#products">Products</a>
+        <a href="/#company">Company</a>
+        <a href="/support.html">Support</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="legal">
+    <div class="wrap prose">
+      <span class="label updated">Legal information</span>
+      <h1>Imprint</h1>
+      <p>Information about the organization responsible for this website and its applications.</p>
+
+      <ul class="facts" style="margin-top:32px">
+        <li><span class="k">Organization</span><span class="v">TheNoCompany LLC</span></li>
+        <li><span class="k">Entity type</span><span class="v">Limited Liability Company</span></li>
+        <li><span class="k">Jurisdiction</span><span class="v">State of Wyoming, USA</span></li>
+        <!-- TODO(brudi): replace with the full registered-agent / registered-office street address -->
+        <li><span class="k">Registered office</span><span class="v">Wyoming, USA</span></li>
+        <li><span class="k">Contact</span><span class="v"><a href="mailto:support@thenocompany.org">support@thenocompany.org</a></span></li>
+        <li><span class="k">Website</span><span class="v">thenocompany.org</span></li>
+      </ul>
+
+      <h2>Responsibility for content</h2>
+      <p>TheNoCompany LLC is responsible for the content of this website. Our applications are general-purpose players and tools and do not host, provide, or curate third-party content; see our <a href="/terms.html" style="border-bottom:1px solid var(--line)">Terms</a> and <a href="/privacy.html" style="border-bottom:1px solid var(--line)">Privacy Policy</a>.</p>
+    </div>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <div class="foot">
+        <div>
+          <a class="brand" href="/">TheNo<span class="dot">·</span>Company</a>
+          <p>Independent software studio.<br />TheNoCompany LLC · Wyoming, USA</p>
+        </div>
+        <div>
+          <h4>Site</h4>
+          <a href="/#products">Products</a>
+          <a href="/#company">Company</a>
+          <a href="/support.html">Support</a>
+        </div>
+        <div>
+          <h4>Legal</h4>
+          <a href="/privacy.html">Privacy</a>
+          <a href="/terms.html">Terms</a>
+          <a href="/imprint.html" aria-current="page">Imprint</a>
+        </div>
+      </div>
+      <div class="legalbar">
+        <span>© <span id="yr">2026</span> TheNoCompany LLC. All rights reserved.</span>
+        <span><a href="mailto:support@thenocompany.org">support@thenocompany.org</a></span>
+      </div>
+    </div>
+  </footer>
+  <script>document.getElementById('yr').textContent = new Date().getFullYear();</script>
+</body>
+</html>

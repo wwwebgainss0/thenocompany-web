@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>TheNoCompany — Independent software studio</title>
+  <meta name="description" content="TheNoCompany LLC is an independent software studio. We design and ship focused, native applications for phone, TV, and the web." />
+  <meta property="og:title" content="TheNoCompany — Independent software studio" />
+  <meta property="og:description" content="We design and ship focused, native applications for phone, TV, and the web." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://thenocompany.org/" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%2316161A'/%3E%3Ccircle cx='16' cy='16' r='5.5' fill='none' stroke='%23F6F5F1' stroke-width='2.4'/%3E%3Cline x1='12' y1='20' x2='20' y2='12' stroke='%233A2BFF' stroke-width='2.4'/%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="bar">
+    <div class="wrap">
+      <a class="brand" href="/">TheNo<span class="dot">·</span>Company</a>
+      <nav class="nav" aria-label="Primary">
+        <a href="#products">Products</a>
+        <a href="#company">Company</a>
+        <a href="/support.html">Support</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" style="border-top:none">
+      <div class="wrap">
+        <span class="label">Independent software studio</span>
+        <h1>Native apps,<br />built with restraint.</h1>
+        <p class="lead">TheNoCompany LLC designs and ships focused, native applications for phone, TV, and the web — software built to do one thing precisely, without the bloat.</p>
+      </div>
+    </section>
+
+    <section id="products">
+      <div class="wrap">
+        <div class="sec-head">
+          <span class="label">Products</span>
+          <h2>What we build</h2>
+          <p class="sub">Native, single-purpose apps. We own the craft end to end — design, engineering, and release across every platform a product needs.</p>
+        </div>
+        <div class="products">
+          <article class="product">
+            <div class="row">
+              <h3>TELOS</h3>
+              <span class="meta">Media player · iOS · Android · TV · Web</span>
+            </div>
+            <p>A clean, native media player. TELOS plays the streams from a compatible server you configure yourself — it hosts, provides, and curates no content of its own.</p>
+          </article>
+          <article class="product">
+            <div class="row">
+              <h3>More in development</h3>
+              <span class="meta">Announced when ready</span>
+            </div>
+            <p>We keep a short list on purpose. New products ship when they meet the same bar as the last one.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="company">
+      <div class="wrap">
+        <div class="sec-head">
+          <span class="label">Company</span>
+          <h2>A small studio, by design</h2>
+        </div>
+        <div class="cols">
+          <div>
+            <p>TheNoCompany LLC is an independent software company. We stay small so every release carries a clear point of view and a high standard of craft, rather than the feature sprawl that comes with scale.</p>
+            <p>We build natively on each platform — using the system's own tools and conventions — so our apps feel at home and respect the people who use them.</p>
+          </div>
+          <ul class="facts">
+            <li><span class="k">Legal name</span><span class="v">TheNoCompany LLC</span></li>
+            <li><span class="k">Entity</span><span class="v">Limited Liability Company</span></li>
+            <li><span class="k">Jurisdiction</span><span class="v">Wyoming, USA</span></li>
+            <li><span class="k">Contact</span><span class="v"><a href="mailto:support@thenocompany.org">support@thenocompany.org</a></span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="support" class="contact">
+      <div class="wrap">
+        <div class="sec-head">
+          <span class="label">Support</span>
+          <h2>Questions? Talk to us.</h2>
+          <p class="sub">Reach the team directly. We read every message and reply within two business days.</p>
+        </div>
+        <a class="mail" href="mailto:support@thenocompany.org">support@thenocompany.org</a>
+        <p class="note">Prefer a page? Visit <a href="/support.html" style="border-bottom:1px solid var(--line)">Support</a> for help topics and contact details.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <div class="foot">
+        <div>
+          <a class="brand" href="/">TheNo<span class="dot">·</span>Company</a>
+          <p>Independent software studio.<br />TheNoCompany LLC · Wyoming, USA</p>
+        </div>
+        <div>
+          <h4>Site</h4>
+          <a href="#products">Products</a>
+          <a href="#company">Company</a>
+          <a href="/support.html">Support</a>
+        </div>
+        <div>
+          <h4>Legal</h4>
+          <a href="/privacy.html">Privacy</a>
+          <a href="/terms.html">Terms</a>
+          <a href="/imprint.html">Imprint</a>
+        </div>
+      </div>
+      <div class="legalbar">
+        <span>© <span id="yr">2026</span> TheNoCompany LLC. All rights reserved.</span>
+        <span><a href="mailto:support@thenocompany.org">support@thenocompany.org</a></span>
+      </div>
+    </div>
+  </footer>
+  <script>document.getElementById('yr').textContent = new Date().getFullYear();</script>
+</body>
+</html>
